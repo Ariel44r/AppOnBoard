@@ -17,6 +17,8 @@
 		44BF4E322871FD4900675711 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44BF4E082871FD4500675711 /* ContentView.swift */; };
 		44BF4E332871FD4900675711 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44BF4E092871FD4900675711 /* Assets.xcassets */; };
 		44BF4E342871FD4900675711 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44BF4E092871FD4900675711 /* Assets.xcassets */; };
+		44BF4E442871FE7B00675711 /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44BF4E432871FE7B00675711 /* ContentViewModel.swift */; };
+		44BF4E452871FE7B00675711 /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44BF4E432871FE7B00675711 /* ContentViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,7 @@
 		44BF4E272871FD4900675711 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		44BF4E2B2871FD4900675711 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		44BF4E2D2871FD4900675711 /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
+		44BF4E432871FE7B00675711 /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +102,7 @@
 			children = (
 				44BF4E072871FD4500675711 /* AppOnBoardApp.swift */,
 				44BF4E082871FD4500675711 /* ContentView.swift */,
+				44BF4E432871FE7B00675711 /* ContentViewModel.swift */,
 				44BF4E092871FD4900675711 /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -301,6 +305,7 @@
 			files = (
 				44BF4E312871FD4900675711 /* ContentView.swift in Sources */,
 				44BF4E2F2871FD4900675711 /* AppOnBoardApp.swift in Sources */,
+				44BF4E442871FE7B00675711 /* ContentViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -310,6 +315,7 @@
 			files = (
 				44BF4E322871FD4900675711 /* ContentView.swift in Sources */,
 				44BF4E302871FD4900675711 /* AppOnBoardApp.swift in Sources */,
+				44BF4E452871FE7B00675711 /* ContentViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
