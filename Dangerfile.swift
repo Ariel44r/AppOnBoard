@@ -8,8 +8,8 @@ let editedAppFiles = editedFiles.filter { $0.contains("/App") }
 
 checkMRDescription()
 
-debugPrint(editedFiles)
-debugPrint(editedAppFiles)
+//debugPrint(editedFiles)
+//debugPrint(editedAppFiles)
 
 
 func checkMRDescription() {
